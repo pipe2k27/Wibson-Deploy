@@ -29,6 +29,10 @@ h3 {
   font-size: 1.8rem;
 }
 
+h4 {
+  font-size: 1.5rem;
+}
+
 .golden-text {
   color: rgb(195, 167, 105);
 }
@@ -102,10 +106,22 @@ h3 {
   margin: 0;
 }
 
+.global-link {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
 /* global media querys */
 
 @media (max-width: 908px) {
   .app-button {
     max-width: 47%;
+  }
+  .button-box {
+    width: fit-content;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }

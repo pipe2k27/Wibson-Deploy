@@ -15,6 +15,7 @@
   width: 270px;
   position: relative;
   margin: 40px 0 70px;
+  max-width: 70%;
 }
 
 .hacked-text {
@@ -35,4 +36,32 @@
   width: 100%;
   z-index: 1;
   object-fit: cover;
+}
+
+.code2 {
+  display: none;
+}
+
+.code3 {
+  display: none;
+}
+
+@media (max-width: 930px) {
+  .code2 {
+    display: initial;
+  }
+
+  .code1 {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  .code2 {
+    display: none;
+  }
+
+  .code3 {
+    display: initial;
+  }
 }

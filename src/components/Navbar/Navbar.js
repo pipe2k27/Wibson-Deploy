@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const [clicked, clicker] = useState(false);
@@ -20,15 +21,21 @@ export default function Navbar() {
         ></img>
       </a>
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
-        <a className="nav-element" href="#header">
-          About Us{" "}
-        </a>
-        <a className="nav-element" href="#footer">
-          Enterprises
-        </a>
-        <a className="nav-element" href="#footer">
-          Research
-        </a>
+        <Link className="global-link" to="/about-us">
+          <a className="nav-element" href="#header">
+            About Us
+          </a>
+        </Link>
+        <Link className="global-link" to="/about-us">
+          <a className="nav-element" href="#footer">
+            Enterprises
+          </a>
+        </Link>
+        <Link className="global-link" to="/about-us">
+          <a className="nav-element" href="#footer">
+            Research
+          </a>
+        </Link>
       </div>
       <i onClick={handleClick} className="fas fa-bars"></i>
     </div>

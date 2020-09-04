@@ -24,7 +24,7 @@
   height: 100%;
 }
 
-.text-box2 {
+.text-box4 {
   position: relative;
 }
 
@@ -35,13 +35,20 @@
   left: 20%;
 }
 
+@media (max-width: 1230px) {
+  .text-card4 {
+    left: 0;
+    width: 100%;
+  }
+}
+
 @media (max-width: 1099px) {
   .hand {
     right: 0;
   }
 }
 
-@media (max-width: 908px) {
+@media (max-width: 938px) {
   .fourth-card {
     height: auto;
     grid-template-columns: 1fr;

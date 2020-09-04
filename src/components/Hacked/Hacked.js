@@ -1,14 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Hacked.css";
 
 export default function Hacked() {
   return (
     <div className="hacked">
       <img
-        src={process.env.PUBLIC_URL + "/images/code2.png"}
+        src={process.env.PUBLIC_URL + "/images/code.png"}
         alt="code"
-        className="code"
+        className="code code1"
       ></img>
+
+      <img
+        src={process.env.PUBLIC_URL + "/images/code-md.png"}
+        alt="code"
+        className="code code2"
+      ></img>
+
+      <img
+        src={process.env.PUBLIC_URL + "/images/code-sm.png"}
+        alt="code"
+        className="code code3"
+      ></img>
+
       <div className="hacked-container">
         <img
           src={process.env.PUBLIC_URL + "/images/logo_gold.svg"}

@@ -33,7 +33,13 @@
   top: 10%;
 }
 
-@media (max-width: 908px) {
+@media (max-width: 1100px) {
+  .text-card2 {
+    right: 0;
+  }
+}
+
+@media (max-width: 958px) {
   .second-card {
     height: auto;
     grid-template-columns: 1fr;
