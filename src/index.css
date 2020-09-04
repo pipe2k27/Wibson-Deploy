@@ -1,13 +1,111 @@
-body {
+* {
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background-color: #222222;
+}
+
+.gradient-background {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(34, 34, 34, 1) 100%
+  );
+  z-index: -3;
+}
+
+/* global text styling */
+
+h1 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.golden-text {
+  color: rgb(195, 167, 105);
+}
+.darker-text {
+  color: #222222;
+}
+
+.dark-text {
+  color: #585858;
+}
+
+.grey-text {
+  color: #a3a3a3;
+}
+
+.light-text {
+  color: rgb(241, 241, 241);
+}
+
+.small-text {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  margin: 25px 0;
+  font-weight: 400;
+}
+
+/* buttons */
+
+.button {
+  padding: 15px 80px;
+  background-color: rgb(197, 173, 120);
+  color: black;
+  font-weight: 700;
+  font-size: 1.15rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(221, 199, 151);
+  color: white;
+}
+
+/* app buttons */
+
+.app-button {
+  position: relative;
+  top: 0;
+  transition: all 0.15s ease-out;
+  width: 190px;
+  cursor: pointer;
+}
+
+.app-button:hover {
+  top: -3px;
+  -webkit-box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 9px 0px rgba(0, 0, 0, 0.15);
+}
+
+.apple {
+  margin-left: 10px;
+}
+
+/* phone */
+
+.only-phone {
+  width: 220px;
+  max-width: 60%;
+  margin: 0;
+}
+
+/* global media querys */
+
+@media (max-width: 908px) {
+  .app-button {
+    max-width: 47%;
+  }
 }

@@ -1,0 +1,65 @@
+.fourth-card {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.hand {
+  width: 380px;
+  max-width: 80%;
+  position: absolute;
+  bottom: 0;
+  right: 10%;
+}
+
+.hand-box {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-box2 {
+  position: relative;
+}
+
+.text-card4 {
+  text-align: left;
+  position: relative;
+  width: 90%;
+  left: 20%;
+}
+
+@media (max-width: 1099px) {
+  .hand {
+    right: 0;
+  }
+}
+
+@media (max-width: 908px) {
+  .fourth-card {
+    height: auto;
+    grid-template-columns: 1fr;
+    padding-bottom: 0;
+    padding: 50px 20px 0;
+  }
+
+  .phone-box4 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .text-card4 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .hand {
+    position: relative;
+    margin-top: 50px;
+  }
+}

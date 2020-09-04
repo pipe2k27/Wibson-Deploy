@@ -1,0 +1,23 @@
+.pim-city {
+  padding: 20px;
+  height: auto;
+  background-color: white;
+  text-align: center;
+  /* background-color: #222222; */
+}
+
+.pim-logo {
+  width: 700px;
+  max-width: 100%;
+}
+
+.pim-text {
+  max-width: 700px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.read-more {
+  margin: 70px 0;
+}

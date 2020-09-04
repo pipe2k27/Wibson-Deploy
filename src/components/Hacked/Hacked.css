@@ -1,0 +1,38 @@
+.hacked {
+  padding: 20px;
+  display: grid;
+  height: auto;
+  text-align: center;
+  position: relative;
+}
+.hacked-container {
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}
+
+.logo-hacked {
+  width: 270px;
+  position: relative;
+  margin: 40px 0 70px;
+}
+
+.hacked-text {
+  max-width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0 50px;
+}
+.mask {
+  width: 270px;
+  position: relative;
+}
+
+.code {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  object-fit: cover;
+}

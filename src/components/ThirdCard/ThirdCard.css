@@ -1,0 +1,45 @@
+.third-card {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  /* background-color: #222222; */
+}
+
+.phone-box3 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.text-box3 {
+  position: relative;
+}
+
+.text-card3 {
+  text-align: left;
+  position: relative;
+  width: 90%;
+  left: 20%;
+  top: 10%;
+}
+
+@media (max-width: 908px) {
+  .third-card {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .phone-box3 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .text-card3 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

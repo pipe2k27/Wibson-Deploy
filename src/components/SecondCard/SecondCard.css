@@ -1,0 +1,51 @@
+.second-card {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 500px;
+  background-color: #f2f2f2;
+}
+
+.phone {
+  width: 180px;
+  max-width: 40%;
+  margin: 0 10px;
+}
+
+.phone-box2 {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.text-box2 {
+  position: relative;
+}
+
+.text-card2 {
+  text-align: left;
+  position: relative;
+  width: 90%;
+  right: 10%;
+  top: 10%;
+}
+
+@media (max-width: 908px) {
+  .second-card {
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .phone-box2 {
+    height: auto;
+    padding: 50px 0;
+  }
+  .text-card2 {
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

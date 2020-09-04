@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import Navbar from "./components/Navbar/Navbar.js";
+import FirstCard from "./components/FirstCard/FirstCard";
+import SecondCard from "./components/SecondCard/SecondCard";
+import Principles from "./components/Principles/Principles";
+import ThirdCard from "./components/ThirdCard/ThirdCard";
+import Hacked from "./components/Hacked/Hacked";
+import PimCity from "./components/PimCity/PimCity";
+import FourthCard from "./components/FourthCard/FourthCard";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <FirstCard />
+      <SecondCard />
+      <Principles />
+      <div className="gradient-background">
+        <ThirdCard />
+        <Hacked />
+      </div>
+      <PimCity />
+      <FourthCard />
     </div>
   );
 }
