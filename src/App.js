@@ -10,6 +10,8 @@ import PimCity from "./components/PimCity/PimCity";
 import FourthCard from "./components/FourthCard/FourthCard";
 import Footer from "./components/Footer/Footer";
 import AboutUs from "./components/AboutUs/AboutUs";
+import Privacy from "./components/Policies/Privacy";
+import Cookies from "./components/Policies/Cookies";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -34,6 +36,13 @@ function App() {
         <Route path="/about-us">
           <AboutUs />
         </Route>
+        <Route path="/privacy">
+          <Privacy />
+        </Route>
+        <Route path="/cookies">
+          <Cookies />
+        </Route>
+
         <Footer />
       </BrowserRouter>
     </div>

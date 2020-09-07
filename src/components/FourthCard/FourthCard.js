@@ -10,8 +10,8 @@ export default function FourthCard() {
             It's Your Data, It's Your{" "}
             <span className="golden-text">Choice!</span>
             <p className="small-text dark-text text4">
-              Wibson empowers you to control your personal information, find out
-              who has your data and decide who should keep it or delete it.
+              It’s easy to start. Controlling your data and keeping your privacy
+              online is in your hands.
             </p>
             <div className="button-box">
               <img

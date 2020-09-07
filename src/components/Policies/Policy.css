@@ -1,0 +1,28 @@
+.policy {
+  padding: 40px 5%;
+}
+
+.policy-box {
+  max-width: 900px;
+}
+.policy p {
+  font-size: 1.1rem !important;
+  line-height: 2.2rem !important;
+}
+
+.policy li {
+  font-size: 1.1rem !important;
+  line-height: 2.2rem !important;
+  width: 95%;
+  position: relative;
+  left: 5%;
+}
+
+.policy strong {
+  margin: 20px 0;
+  height: 50px;
+}
+
+.cookie-title {
+  margin-bottom: 50px;
+}

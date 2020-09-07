@@ -1,0 +1,27 @@
+.mission {
+  padding: 20px 10%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 150px;
+  align-content: center;
+  text-align: center;
+}
+
+.mission-div {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 850px) {
+  .mission {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  .mission-div {
+    margin: 10px 0;
+  }
+}

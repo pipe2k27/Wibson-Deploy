@@ -1,0 +1,23 @@
+.papers {
+  max-width: 80%;
+}
+
+.papers-grid {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.paper {
+  width: 280px;
+}
+
+@media (max-width: 1140px) {
+  .papers-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .papers-grid {
+    grid-template-columns: 1fr;
+  }
+}
