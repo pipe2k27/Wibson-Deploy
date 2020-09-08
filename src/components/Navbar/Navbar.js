@@ -21,20 +21,11 @@ export default function Navbar() {
         ></img>
       </a>
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
-        <Link className="global-link" to="/about-us">
-          <a className="nav-element" href="#header">
-            About Us
-          </a>
+        <Link className="global-link nav-element" to="/about-us">
+          About Us
         </Link>
-        <Link className="global-link" to="/about-us">
-          <a className="nav-element" href="#footer">
-            Enterprises
-          </a>
-        </Link>
-        <Link className="global-link" to="/about-us">
-          <a className="nav-element" href="#footer">
-            Research
-          </a>
+        <Link className="global-link nav-element" to="/">
+          Home
         </Link>
       </div>
       <i onClick={handleClick} className="fas fa-bars"></i>

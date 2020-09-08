@@ -84,6 +84,8 @@ h4 {
   cursor: pointer;
   transition: all 0.3s ease-out;
   text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .button:hover {
@@ -154,7 +156,7 @@ h4 {
 /* global padding */
 
 .padding20 {
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .padding50 {

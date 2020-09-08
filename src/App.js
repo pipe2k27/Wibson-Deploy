@@ -12,6 +12,8 @@ import Footer from "./components/Footer/Footer";
 import AboutUs from "./components/AboutUs/AboutUs";
 import Privacy from "./components/Policies/Privacy";
 import Cookies from "./components/Policies/Cookies";
+import Terms from "./components/Policies/Terms";
+import AppleIos from "./components/AppleIos/AppleIos";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
@@ -41,6 +43,12 @@ function App() {
         </Route>
         <Route path="/cookies">
           <Cookies />
+        </Route>
+        <Route path="/terms">
+          <Terms />
+        </Route>
+        <Route path="/apple">
+          <AppleIos />
         </Route>
 
         <Footer />

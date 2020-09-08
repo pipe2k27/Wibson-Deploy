@@ -16,20 +16,53 @@ export default function Footer() {
             <Link to="/privacy" className="footer-link golden-text">
               Privacy Policy
             </Link>
-            <a className="footer-link golden-text">Terms of Services</a>
+            <Link to="/terms" className="footer-link golden-text">
+              Terms of Services
+            </Link>
+
             <Link to="/cookies" className="footer-link golden-text">
               Cookies Policy
             </Link>
 
-            <a className="footer-link golden-text">FAQ</a>
+            <a
+              className="footer-link golden-text"
+              href="https://wibson.zendesk.com/hc/en-us/categories/360003263372-FAQ-"
+            >
+              FAQ
+            </a>
           </div>
           <div className="footer-social-media">
             <h4 className="footer-title">Social Media</h4>
-            <a className="footer-link golden-text">Twitter</a>
-            <a className="footer-link golden-text">Medium</a>
-            <a className="footer-link golden-text">Linkedin</a>
-            <a className="footer-link golden-text">Instagram</a>
-            <a className="footer-link golden-text">Facebook</a>
+            <a
+              className="footer-link golden-text"
+              href="https://twitter.com/WibsonOrg"
+            >
+              Twitter
+            </a>
+            <a
+              className="footer-link golden-text"
+              href="https://medium.com/wibson"
+            >
+              Medium
+            </a>
+            <a
+              className="footer-link golden-text"
+              href="https://www.linkedin.com/company/wibson/"
+            >
+              Linkedin
+            </a>
+            <a
+              className="footer-link golden-text"
+              href="https://www.instagram.com/wibson_org/"
+            >
+              Instagram
+            </a>
+            <a
+              className="footer-link golden-text"
+              href="https://www.facebook.com/WibsonOrg/"
+            >
+              Facebook
+            </a>
           </div>
         </div>
         <div className="footer-subscribe">

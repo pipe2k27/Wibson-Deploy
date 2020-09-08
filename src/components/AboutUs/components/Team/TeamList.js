@@ -4,5 +4,5 @@ export let teamList = [
   { name: "Adrian Ertorteguy", role: "Operations", pic: "/images/adri.png" },
   { name: "Nerio Ramirez", role: "Developer", pic: "/images/dani.png" },
   { name: "Felipe Perarnau", role: "Developer", pic: "/images/toro.JPG" },
-  { name: "Pablo Torrubiano", role: "Developer", pic: "/images/dani.png" },
+  { name: "Pablo Torrubiano", role: "Developer", pic: "/images/pablo.JPG" },
 ];

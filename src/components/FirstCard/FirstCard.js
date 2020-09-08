@@ -1,5 +1,6 @@
 import React from "react";
 import "./FirstCard.css";
+import { Link } from "react-router-dom";
 
 export default function FirstCard() {
   return (
@@ -14,16 +15,20 @@ export default function FirstCard() {
             who has your data and decide who should keep it or delete it.
           </p>
           <div className="button-box">
-            <img
-              src={process.env.PUBLIC_URL + "/images/google-button.png"}
-              alt="Google-store"
-              className="app-button google"
-            ></img>
-            <img
-              src={process.env.PUBLIC_URL + "/images/apple-button.png"}
-              alt="Google-store"
-              className="app-button apple"
-            ></img>
+            <a href="https://play.google.com/store/apps/details?id=org.wibson.wallet&hl=en">
+              <img
+                src={process.env.PUBLIC_URL + "/images/google-button.png"}
+                alt="Google-store"
+                className="app-button google"
+              ></img>
+            </a>
+            <Link to="/apple">
+              <img
+                src={process.env.PUBLIC_URL + "/images/apple-button.png"}
+                alt="Google-store"
+                className="app-button apple"
+              ></img>
+            </Link>
           </div>
         </div>
       </div>

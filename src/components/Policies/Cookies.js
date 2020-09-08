@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Policy.css";
 
 export default function Cookies() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="policy light-back">
       <div className="policy-box div-center">

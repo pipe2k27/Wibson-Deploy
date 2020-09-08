@@ -1,0 +1,55 @@
+.apple-icon {
+  font-size: 8rem;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 50px;
+}
+
+.apple-phone {
+  max-width: 400px;
+  width: 75%;
+}
+
+.apple-grid {
+  grid-template-columns: 1.6fr 2fr;
+  width: 100%;
+}
+
+.apple-text {
+  width: 85%;
+  text-align: left;
+  position: relative;
+  left: -10%;
+}
+
+.apple-email {
+  color: grey;
+  padding: 10px;
+  width: 250px;
+  font-size: 1.1rem;
+}
+
+.apple-button-box {
+  margin-top: 40px;
+}
+
+@media (max-width: 850px) {
+  .apple-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .apple-text {
+    margin: 50px 0 25px;
+    width: 95%;
+    text-align: center;
+    left: 0;
+  }
+
+  .apple-icon {
+    top: 0;
+    left: initial;
+    transform: initial;
+    margin-top: 50px;
+  }
+}
