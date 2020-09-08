@@ -22,7 +22,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/Wibson-Deploy">
         <Navbar />
         <Route exact path="/Wibson-Deploy">
           <FirstCard />
