@@ -22,7 +22,7 @@ export default function FirstCard() {
                 className="app-button google"
               ></img>
             </a>
-            <Link to="/Wibson-Deploy/apple">
+            <Link to="/apple">
               <img
                 src={process.env.PUBLIC_URL + "/images/apple-button.png"}
                 alt="Google-store"

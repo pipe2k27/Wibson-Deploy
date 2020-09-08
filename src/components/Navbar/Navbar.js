@@ -21,10 +21,10 @@ export default function Navbar() {
         ></img>
       </a>
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
-        <Link className="global-link nav-element" to="/Wibson-Deploy/about-us">
+        <Link className="global-link nav-element" to="/about-us">
           About Us
         </Link>
-        <Link className="global-link nav-element" to="/Wibson-Deploy">
+        <Link className="global-link nav-element" to="/">
           Home
         </Link>
       </div>
