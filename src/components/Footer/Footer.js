@@ -13,14 +13,14 @@ export default function Footer() {
               About us
             </Link>
 
-            <Link to="/privacy" className="footer-link golden-text">
+            <Link to="/Wibson-Deploy/privacy" className="footer-link golden-text">
               Privacy Policy
             </Link>
-            <Link to="/terms" className="footer-link golden-text">
+            <Link to="/Wibson-Deploy/terms" className="footer-link golden-text">
               Terms of Services
             </Link>
 
-            <Link to="/cookies" className="footer-link golden-text">
+            <Link to="/Wibson-Deploy/cookies" className="footer-link golden-text">
               Cookies Policy
             </Link>
 

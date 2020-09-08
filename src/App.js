@@ -24,7 +24,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Route exact path="/">
+        <Route exact path="/Wibson-Deploy">
           <FirstCard />
           <SecondCard />
           <Principles />
@@ -35,19 +35,19 @@ function App() {
           <PimCity />
           <FourthCard />
         </Route>
-        <Route path="/about-us">
+        <Route path="/Wibson-Deploy/about-us">
           <AboutUs />
         </Route>
-        <Route path="/privacy">
+        <Route path="/Wibson-Deploy/privacy">
           <Privacy />
         </Route>
-        <Route path="/cookies">
+        <Route path="/Wibson-Deploy/cookies">
           <Cookies />
         </Route>
-        <Route path="/terms">
+        <Route path="/Wibson-Deploy/terms">
           <Terms />
         </Route>
-        <Route path="/apple">
+        <Route path="/Wibson-Deploy/apple">
           <AppleIos />
         </Route>
 

@@ -13,7 +13,7 @@ export default function Navbar() {
 
   return (
     <div className="header" id="header">
-      <a href="/">
+      <a href="/Wibson-Deploy">
         <img
           src={process.env.PUBLIC_URL + "/images/logo_gold.svg"}
           alt="Wibson"
@@ -21,10 +21,10 @@ export default function Navbar() {
         ></img>
       </a>
       <div className={clicked ? "navbar drop" : "navbar colapse"}>
-        <Link className="global-link nav-element" to="/about-us">
+        <Link className="global-link nav-element" to="/Wibson-Deploy/about-us">
           About Us
         </Link>
-        <Link className="global-link nav-element" to="/">
+        <Link className="global-link nav-element" to="/Wibson-Deploy">
           Home
         </Link>
       </div>
