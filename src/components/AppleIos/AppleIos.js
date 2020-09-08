@@ -12,7 +12,7 @@ export default function AppleIos() {
   }, []);
 
   return (
-    <div className="apple center-all dark-back padding20">
+    <div className="center-all dark-back padding20">
       <div className="apple-grid center-all">
         <img
           src={process.env.PUBLIC_URL + "/images/wibson-ios.png"}

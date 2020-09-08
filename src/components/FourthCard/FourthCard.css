@@ -70,3 +70,9 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 470px) {
+  .text-card4 {
+    width: 90%;
+  }
+}

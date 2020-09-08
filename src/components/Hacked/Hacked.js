@@ -30,7 +30,7 @@ export default function Hacked() {
         data-aos-delay="50"
         data-aos-duration="500"
         data-aos-easing="ease-in-sine"
-        data-aos-offset="800"
+        data-aos-offset="200"
       ></img>
 
       <img
@@ -41,7 +41,7 @@ export default function Hacked() {
         data-aos-delay="50"
         data-aos-duration="500"
         data-aos-easing="ease-in-sine"
-        data-aos-offset="1500"
+        data-aos-offset="300"
       ></img>
 
       <div className="hacked-container">
