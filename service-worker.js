@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Wibson-Deploy/precache-manifest.2e9163252bdacb25c4bfc7ee1e085e97.js"
+  "/Wibson-Deploy/precache-manifest.5a9915c75f11b8c825752652c845bfb9.js"
 );
 
 self.addEventListener('message', (event) => {
