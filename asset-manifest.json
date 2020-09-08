@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Wibson-Deploy/static/css/main.3c5831f6.chunk.css",
-    "main.js": "/Wibson-Deploy/static/js/main.3d2f01b8.chunk.js",
-    "main.js.map": "/Wibson-Deploy/static/js/main.3d2f01b8.chunk.js.map",
+    "main.js": "/Wibson-Deploy/static/js/main.f424426a.chunk.js",
+    "main.js.map": "/Wibson-Deploy/static/js/main.f424426a.chunk.js.map",
     "runtime-main.js": "/Wibson-Deploy/static/js/runtime-main.be336239.js",
     "runtime-main.js.map": "/Wibson-Deploy/static/js/runtime-main.be336239.js.map",
     "static/css/2.4707e12a.chunk.css": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css",
     "static/js/2.7ed4ecb9.chunk.js": "/Wibson-Deploy/static/js/2.7ed4ecb9.chunk.js",
     "static/js/2.7ed4ecb9.chunk.js.map": "/Wibson-Deploy/static/js/2.7ed4ecb9.chunk.js.map",
     "index.html": "/Wibson-Deploy/index.html",
-    "precache-manifest.5a9915c75f11b8c825752652c845bfb9.js": "/Wibson-Deploy/precache-manifest.5a9915c75f11b8c825752652c845bfb9.js",
+    "precache-manifest.16c3bc1a5e6d44c46328e18252e316d5.js": "/Wibson-Deploy/precache-manifest.16c3bc1a5e6d44c46328e18252e316d5.js",
     "service-worker.js": "/Wibson-Deploy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.3c5831f6.chunk.css.map": "/Wibson-Deploy/static/css/main.3c5831f6.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.7ed4ecb9.chunk.js",
     "static/css/main.3c5831f6.chunk.css",
-    "static/js/main.3d2f01b8.chunk.js"
+    "static/js/main.f424426a.chunk.js"
   ]
 }
