@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Wibson-Deploy/static/css/main.5f3a8c00.chunk.css",
-    "main.js": "/Wibson-Deploy/static/js/main.beef7231.chunk.js",
-    "main.js.map": "/Wibson-Deploy/static/js/main.beef7231.chunk.js.map",
+    "main.js": "/Wibson-Deploy/static/js/main.428e2924.chunk.js",
+    "main.js.map": "/Wibson-Deploy/static/js/main.428e2924.chunk.js.map",
     "runtime-main.js": "/Wibson-Deploy/static/js/runtime-main.be336239.js",
     "runtime-main.js.map": "/Wibson-Deploy/static/js/runtime-main.be336239.js.map",
     "static/css/2.4707e12a.chunk.css": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css",
-    "static/js/2.7ed4ecb9.chunk.js": "/Wibson-Deploy/static/js/2.7ed4ecb9.chunk.js",
-    "static/js/2.7ed4ecb9.chunk.js.map": "/Wibson-Deploy/static/js/2.7ed4ecb9.chunk.js.map",
+    "static/js/2.5e5e0b51.chunk.js": "/Wibson-Deploy/static/js/2.5e5e0b51.chunk.js",
+    "static/js/2.5e5e0b51.chunk.js.map": "/Wibson-Deploy/static/js/2.5e5e0b51.chunk.js.map",
     "index.html": "/Wibson-Deploy/index.html",
-    "precache-manifest.2bcc6ec7da8c859f59b425b14aab65d6.js": "/Wibson-Deploy/precache-manifest.2bcc6ec7da8c859f59b425b14aab65d6.js",
+    "precache-manifest.5db384c80e8250c730de65261914e3fa.js": "/Wibson-Deploy/precache-manifest.5db384c80e8250c730de65261914e3fa.js",
     "service-worker.js": "/Wibson-Deploy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.5f3a8c00.chunk.css.map": "/Wibson-Deploy/static/css/main.5f3a8c00.chunk.css.map",
-    "static/js/2.7ed4ecb9.chunk.js.LICENSE.txt": "/Wibson-Deploy/static/js/2.7ed4ecb9.chunk.js.LICENSE.txt"
+    "static/js/2.5e5e0b51.chunk.js.LICENSE.txt": "/Wibson-Deploy/static/js/2.5e5e0b51.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be336239.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.7ed4ecb9.chunk.js",
+    "static/js/2.5e5e0b51.chunk.js",
     "static/css/main.5f3a8c00.chunk.css",
-    "static/js/main.beef7231.chunk.js"
+    "static/js/main.428e2924.chunk.js"
   ]
 }
