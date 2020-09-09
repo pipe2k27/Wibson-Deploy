@@ -54,7 +54,7 @@ export default function Hacked() {
           Check if you have been <span className="golden-text">Hacked!</span>
         </h1>
         <p className="small-text light-text hacked-text">
-          Check out wheather your data was stolen during any data breaches!
+          Check out whether your data was stolen during any data breaches!
         </p>
         <img
           src={process.env.PUBLIC_URL + "/images/mask.png"}

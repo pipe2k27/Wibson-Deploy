@@ -15,14 +15,14 @@ import Cookies from "./components/Policies/Cookies";
 import Terms from "./components/Policies/Terms";
 import AppleIos from "./components/AppleIos/AppleIos";
 
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route } from "react-router-dom";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/Wibson-Deploy">
+      <HashRouter basename="/Wibson-Deploy">
         <Navbar />
         <Route exact path="/">
           <FirstCard />
@@ -52,7 +52,7 @@ function App() {
         </Route>
 
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
