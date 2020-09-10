@@ -15,7 +15,7 @@ export default function PimCity() {
         can make respectful and ethical use of personal data.
       </p>
       <div className="read-more">
-        <a className="button" href="https://pimcity.com/?page=sommaire">
+        <a className="button" href="https://www.pimcity-h2020.eu/partners/">
           Read more!
         </a>
       </div>

@@ -1,8 +1,55 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+const MyForm = ({ status, message, onValidated }) => {
+  let email;
+  const submit = () =>
+    email &&
+    email.value.indexOf("@") > -1 &&
+    onValidated({
+      EMAIL: email.value,
+    });
+
+  return (
+    <div>
+      <div className="footer-form-container">
+        <input
+          className="footer-email"
+          ref={(node) => (email = node)}
+          type="email"
+          placeholder="Your email"
+        />
+        <br />
+        <button className="button footer-button" onClick={submit}>
+          Submit
+        </button>
+      </div>
+      <br />
+      {status === "sending" && (
+        <div className="subscribe-message">sending...</div>
+      )}
+      {status === "error" && (
+        <div
+          className="subscribe-message"
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === "success" && (
+        <div
+          className="subscribe-message"
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+    </div>
+  );
+};
 
 export default function Footer() {
+  const url =
+    "https://wibson.us17.list-manage.com/subscribe/post?u=c7c328a7d3ab8f8b649cf066d&id=4395ef8d87";
+
   return (
     <div className="footer" id="footer">
       <div className="footer-grid">
@@ -70,17 +117,21 @@ export default function Footer() {
           <p className="grey-text subscribe-text">
             Get access to latest news and all the features by subcribing here.
           </p>
-          <form className="footer-form">
-            <div className="footer-form-container">
-              <input
-                type="text"
-                name="email"
-                placeholder="E-Mail Adress"
-                className="footer-email"
-              ></input>
-              <a className="button footer-button">Subscribe</a>
-            </div>
-          </form>
+          <MailchimpSubscribe
+            url={url}
+            render={({ subscribe, status, message }) => (
+              <div>
+                <MyForm
+                  onValidated={(formData) => {
+                    subscribe(formData);
+                    console.log(formData);
+                  }}
+                  status={status}
+                  message={message}
+                />
+              </div>
+            )}
+          />
           <img
             src={process.env.PUBLIC_URL + "/images/WibsonLogoGrey.png"}
             alt="Google-store"

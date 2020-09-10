@@ -2,6 +2,51 @@ import React, { useEffect } from "react";
 import "./AppleIos.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import MailchimpSubscribe from "react-mailchimp-subscribe";
+
+const AppleForm = ({ status, message, onValidated }) => {
+  let email;
+  const submit = () =>
+    email &&
+    email.value.indexOf("@") > -1 &&
+    onValidated({
+      EMAIL: email.value,
+    });
+
+  return (
+    <div>
+      <div className="apple-form-container">
+        <input
+          className="apple-email"
+          ref={(node) => (email = node)}
+          type="email"
+          placeholder="Your email"
+        />
+        <div className="apple-button-box">
+          <button className="button apple-button" onClick={submit}>
+            Let Me Know!
+          </button>
+        </div>
+      </div>
+      <br />
+      {status === "sending" && (
+        <div className="subscribe-message">sending...</div>
+      )}
+      {status === "error" && (
+        <div
+          className="subscribe-message"
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+      {status === "success" && (
+        <div
+          className="subscribe-message"
+          dangerouslySetInnerHTML={{ __html: message }}
+        />
+      )}
+    </div>
+  );
+};
 
 export default function AppleIos() {
   useEffect(() => {
@@ -10,6 +55,9 @@ export default function AppleIos() {
       duration: 500,
     });
   }, []);
+
+  const url =
+    "https://wibson.us17.list-manage.com/subscribe/post?u=c7c328a7d3ab8f8b649cf066d&id=4395ef8d87";
 
   return (
     <div className="center-all dark-back padding20">
@@ -29,19 +77,23 @@ export default function AppleIos() {
             The Wibson App for IOS devices is coming soon. Leave your email
             bellow and be the first to know!
           </p>
-          <form className="apple-form">
-            <div className="apple-form-container">
-              <input
-                type="text"
-                name="email"
-                placeholder="E-Mail Adress"
-                className="apple-email"
-              ></input>
-              <div className="apple-button-box">
-                <a className="button apple-button">Let Me Know!</a>
-              </div>
-            </div>
-          </form>
+          <div className="apple-form">
+            <MailchimpSubscribe
+              url={url}
+              render={({ subscribe, status, message }) => (
+                <div>
+                  <AppleForm
+                    onValidated={(formData) => {
+                      subscribe(formData);
+                      console.log(formData);
+                    }}
+                    status={status}
+                    message={message}
+                  />
+                </div>
+              )}
+            />
+          </div>
           <i class="fab fa-apple apple-icon"></i>
         </div>
       </div>

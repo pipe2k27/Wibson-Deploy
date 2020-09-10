@@ -4,6 +4,7 @@
   height: auto;
   text-align: center;
   position: relative;
+  padding-bottom: 50px;
 }
 .hacked-container {
   z-index: 2;

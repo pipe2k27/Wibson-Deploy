@@ -44,8 +44,8 @@ export default function SecondCard() {
           </h1>
 
           <p className="small-text dark-text text2">
-            Wibson empowers you to control your personal information, find out
-            who has your data and decide who should keep it or delete it.
+            For years internet has been collecting your data. Get the
+            transparency and control that you deserve. Be a #DataOwner
           </p>
           <div className="button-box">
             <a href="https://play.google.com/store/apps/details?id=org.wibson.wallet&hl=en">

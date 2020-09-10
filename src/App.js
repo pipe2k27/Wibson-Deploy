@@ -15,14 +15,14 @@ import Cookies from "./components/Policies/Cookies";
 import Terms from "./components/Policies/Terms";
 import AppleIos from "./components/AppleIos/AppleIos";
 
-import { BrowserRouter, HashRouter, Route } from "react-router-dom";
+import { HashRouter, Route } from "react-router-dom";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <HashRouter basename="/Wibson-Deploy">
+      <HashRouter>
         <Navbar />
         <Route exact path="/">
           <FirstCard />

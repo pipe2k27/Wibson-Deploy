@@ -83,6 +83,11 @@
   margin: 25px 0 0;
 }
 
+.subscribe-message {
+  font-size: 1.2rem;
+  display: block;
+}
+
 @media (max-width: 1050px) {
   .footer-company {
     width: 100%;
