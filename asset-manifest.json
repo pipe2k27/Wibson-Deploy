@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Wibson-Deploy/static/css/main.dd6f9502.chunk.css",
-    "main.js": "/Wibson-Deploy/static/js/main.dc90525a.chunk.js",
-    "main.js.map": "/Wibson-Deploy/static/js/main.dc90525a.chunk.js.map",
+    "main.css": "/Wibson-Deploy/static/css/main.fa0730d5.chunk.css",
+    "main.js": "/Wibson-Deploy/static/js/main.4216fbad.chunk.js",
+    "main.js.map": "/Wibson-Deploy/static/js/main.4216fbad.chunk.js.map",
     "runtime-main.js": "/Wibson-Deploy/static/js/runtime-main.be336239.js",
     "runtime-main.js.map": "/Wibson-Deploy/static/js/runtime-main.be336239.js.map",
     "static/css/2.4707e12a.chunk.css": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css",
     "static/js/2.ac2c95bb.chunk.js": "/Wibson-Deploy/static/js/2.ac2c95bb.chunk.js",
     "static/js/2.ac2c95bb.chunk.js.map": "/Wibson-Deploy/static/js/2.ac2c95bb.chunk.js.map",
     "index.html": "/Wibson-Deploy/index.html",
-    "precache-manifest.c042329ed8d8fc6839dd0d116ee50b75.js": "/Wibson-Deploy/precache-manifest.c042329ed8d8fc6839dd0d116ee50b75.js",
+    "precache-manifest.f8b19617c5cfee47e25770089d5599e9.js": "/Wibson-Deploy/precache-manifest.f8b19617c5cfee47e25770089d5599e9.js",
     "service-worker.js": "/Wibson-Deploy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css.map",
-    "static/css/main.dd6f9502.chunk.css.map": "/Wibson-Deploy/static/css/main.dd6f9502.chunk.css.map",
+    "static/css/main.fa0730d5.chunk.css.map": "/Wibson-Deploy/static/css/main.fa0730d5.chunk.css.map",
     "static/js/2.ac2c95bb.chunk.js.LICENSE.txt": "/Wibson-Deploy/static/js/2.ac2c95bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be336239.js",
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.ac2c95bb.chunk.js",
-    "static/css/main.dd6f9502.chunk.css",
-    "static/js/main.dc90525a.chunk.js"
+    "static/css/main.fa0730d5.chunk.css",
+    "static/js/main.4216fbad.chunk.js"
   ]
 }

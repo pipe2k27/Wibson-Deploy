@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "feb51d232be1773e125c4114e03f4108",
+    "revision": "51146ac005c8e306f3649ef4a7870249",
     "url": "/Wibson-Deploy/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "149dfdbc7747b45c5251",
-    "url": "/Wibson-Deploy/static/css/main.dd6f9502.chunk.css"
+    "revision": "6629969ba4fe11afac64",
+    "url": "/Wibson-Deploy/static/css/main.fa0730d5.chunk.css"
   },
   {
     "revision": "c1c3fabab9b5f3a351d6",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Wibson-Deploy/static/js/2.ac2c95bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "149dfdbc7747b45c5251",
-    "url": "/Wibson-Deploy/static/js/main.dc90525a.chunk.js"
+    "revision": "6629969ba4fe11afac64",
+    "url": "/Wibson-Deploy/static/js/main.4216fbad.chunk.js"
   },
   {
     "revision": "7310bd802712415ab9c0",
