@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/Wibson-Deploy/static/css/main.dd6f9502.chunk.css",
-    "main.js": "/Wibson-Deploy/static/js/main.e3babacc.chunk.js",
-    "main.js.map": "/Wibson-Deploy/static/js/main.e3babacc.chunk.js.map",
+    "main.js": "/Wibson-Deploy/static/js/main.97120a1c.chunk.js",
+    "main.js.map": "/Wibson-Deploy/static/js/main.97120a1c.chunk.js.map",
     "runtime-main.js": "/Wibson-Deploy/static/js/runtime-main.be336239.js",
     "runtime-main.js.map": "/Wibson-Deploy/static/js/runtime-main.be336239.js.map",
     "static/css/2.4707e12a.chunk.css": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css",
-    "static/js/2.250ab04c.chunk.js": "/Wibson-Deploy/static/js/2.250ab04c.chunk.js",
-    "static/js/2.250ab04c.chunk.js.map": "/Wibson-Deploy/static/js/2.250ab04c.chunk.js.map",
+    "static/js/2.512a5c72.chunk.js": "/Wibson-Deploy/static/js/2.512a5c72.chunk.js",
+    "static/js/2.512a5c72.chunk.js.map": "/Wibson-Deploy/static/js/2.512a5c72.chunk.js.map",
     "index.html": "/Wibson-Deploy/index.html",
-    "precache-manifest.cb25ff971856a4a36c9af1ff8a2d41c1.js": "/Wibson-Deploy/precache-manifest.cb25ff971856a4a36c9af1ff8a2d41c1.js",
+    "precache-manifest.77133c2bc6cdae57122217b561f783df.js": "/Wibson-Deploy/precache-manifest.77133c2bc6cdae57122217b561f783df.js",
     "service-worker.js": "/Wibson-Deploy/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/Wibson-Deploy/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.dd6f9502.chunk.css.map": "/Wibson-Deploy/static/css/main.dd6f9502.chunk.css.map",
-    "static/js/2.250ab04c.chunk.js.LICENSE.txt": "/Wibson-Deploy/static/js/2.250ab04c.chunk.js.LICENSE.txt"
+    "static/js/2.512a5c72.chunk.js.LICENSE.txt": "/Wibson-Deploy/static/js/2.512a5c72.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be336239.js",
     "static/css/2.4707e12a.chunk.css",
-    "static/js/2.250ab04c.chunk.js",
+    "static/js/2.512a5c72.chunk.js",
     "static/css/main.dd6f9502.chunk.css",
-    "static/js/main.e3babacc.chunk.js"
+    "static/js/main.97120a1c.chunk.js"
   ]
 }
