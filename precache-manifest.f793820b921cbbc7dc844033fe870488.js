@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ab17e1828fc768177ec98e9d0eb70e8a",
+    "revision": "1a98cff340c5de004231c28fe20ef643",
     "url": "/Wibson-Deploy/index.html"
   },
   {
